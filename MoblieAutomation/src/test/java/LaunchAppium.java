@@ -29,17 +29,19 @@ public class LaunchAppium {
 		  service.start();
 
 		
-		  DesiredCapabilities cap = new DesiredCapabilities();
+		  DesiredCapabilities dc = new DesiredCapabilities();
 		 
 		  Thread.sleep(2000);
-		  cap.setCapability("app", app.getAbsolutePath());
-		  cap.setCapability("deviceName", "emulator-5554");
-		  cap.setCapability("platformName", "Android");
-		  cap.setCapability("automationName","UiAutomator2");
+		  dc.setCapability("app", app.getAbsolutePath());
+		  dc.setCapability("deviceName", "emulator-5554");
+		  dc.setCapability("platformName", "Android");
+		  dc.setCapability("automationName","UiAutomator2");
 		  
 		  
 		  Thread.sleep(2000);
-		   driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+		  URL url = new URL("http://127.0.0.1:4723/wd/hub");
+		   driver = new AndroidDriver(url, dc);
+		   
 //		  driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 //		  driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();
 //	

@@ -37,6 +37,9 @@ public class Swipe extends LaunchAppium {
 	
 	}
 	
+	
+
+	
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		Swipe obj= new Swipe();
 		obj.launchApp();

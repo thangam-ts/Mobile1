@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-28T17:28:59 EST" name="Default suite" finished-at="2024-01-28T17:29:42 EST" duration-ms="42583">
+    <groups>
+    </groups>
+    <test started-at="2024-01-28T17:28:59 EST" name="Default test" finished-at="2024-01-28T17:29:42 EST" duration-ms="42583">
+      <class name="generalStore.ToastMessage">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:generalStore.ToastMessage@942a29c]" started-at="2024-01-28T17:28:59 EST" name="configureAppium" finished-at="2024-01-28T17:29:08 EST" duration-ms="8679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="generalStoreHome()[pri:0, instance:generalStore.ToastMessage@942a29c]" started-at="2024-01-28T17:29:08 EST" name="generalStoreHome" finished-at="2024-01-28T17:29:37 EST" duration-ms="28686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generalStoreHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:generalStore.ToastMessage@942a29c]" started-at="2024-01-28T17:29:37 EST" name="tearDown" finished-at="2024-01-28T17:29:42 EST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- generalStore.ToastMessage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
